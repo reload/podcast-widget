@@ -1,0 +1,19 @@
+{
+  "name": "podcast-widget",
+  "version": "0.0.1",
+  "description": "A widget used to display a list of episodes from a podcast.",
+  "main": "build/podcast-widget.js",
+  "author": "Lasse Borly <lasse@reload.dk>",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "dev": "parcel dev.html",
+    "build": "parcel build src/podcast-widget.js src/podcast-widget.css --detailed-report --out-dir build"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "preact": "^10.4.4",
+    "rss-parser": "^3.8.0"
+  }
+}

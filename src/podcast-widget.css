@@ -1,0 +1,23 @@
+.podcast-widget {
+  font-family: inherit;
+}
+
+.podcast-widget ul {
+  padding: 0;
+  margin: 0;
+}
+
+.podcast-widget li:first-child {
+  margin-top: 0;
+}
+
+.podcast-widget li {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.podcast-widget figure {
+  margin: 0;
+}
