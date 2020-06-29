@@ -5,9 +5,6 @@
   "main": "build/podcast-widget.js",
   "author": "Lasse Borly <lasse@reload.dk>",
   "license": "AGPL-3.0-only",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "dev": "parcel dev.html",
     "build": "parcel build src/podcast-widget.js src/podcast-widget.css --detailed-report --out-dir build"
