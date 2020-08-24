@@ -1,6 +1,6 @@
 {
   "name": "@reloaddk/podcast-widget",
-  "version": "0.0.1-rc.7",
+  "version": "0.0.1-rc.8",
   "description": "A widget used to display a list of episodes from a podcast.",
   "main": "build/podcast-widget.js",
   "author": "Lasse Borly <lasse@reload.dk>",
